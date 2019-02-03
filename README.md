@@ -1,5 +1,5 @@
 # machine_learning_intern
-FYND Machine Learning Internship Challenge to build a model that automatically classifies a product’s pattern attribute based on its image.
+Machine Learning Internship Challenge to build a model that automatically classifies a product’s pattern attribute based on its image.
 
 <h1>Approach:</h1>
 I initially started the project with just tensorflow but it was cumbersome to use, so I switched to keras.
@@ -34,7 +34,6 @@ There are two .py files
       -train_top_model() can be executed multiple times to train model with different parameters.
       -Training takes less time, for 50 epoch it was roughly 10 minutes
       -It will generate 'class_indices.npy' and save weights for future prediction 'bottleneck_fc_model.h5'
-
 2. "bottleneck_predict.py"
       -I takes inputs generate from above file, 'bottleneck_fc_model.h5' and  'class_indices.npy' 
       -here we only need to pass the image_path
@@ -53,16 +52,6 @@ References:
 "Using the bottleneck features of a pre-trained network: 90% accuracy in a minute"
 https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
 
-Feature Extraction approach for image classification=>
-https://tech.zegami.com/comparing-pre-trained-deep-learning-models-for-feature-extraction-c617da54641
-https://blog.keras.io/building-powerful-image-classification-models-using-very-little-data.html
-https://gist.github.com/fchollet/f35fbc80e066a49d65f1688a7e99f069
-http://www.codesofinterest.com/2017/08/bottleneck-features-multi-class-classification-keras.html
-Learning material and blogs:
-https://www.youtube.com/playlist?list=PLZbbT5o_s2xq7LwI2y8_QtvuXZedL6tQU
-https://deeplearningsandbox.com/how-to-build-an-image-recognition-system-using-keras-and-tensorflow-for-a-1000-everyday-object-559856e04699
-https://github.com/as1ndu/keras-for-numerai/blob/master/predict.py
-https://chrisalbon.com/#machine_learning
 Research paper and studies=>
 "Dropout: A Simple Way to Prevent Neural Networks from Overfitting".
 
@@ -71,6 +60,5 @@ https://shaoanlu.wordpress.com/2017/05/29/sgd-all-which-one-is-the-best-optimize
 
 Impact of No. of Neurons
 http://www.chioka.in/how-does-the-number-of-hidden-neurons-affect-a-neural-networks-performance/
-Keras Weights and source code:
-https://github.com/fchollet/deep-learning-models/releases/
+
 </p>
